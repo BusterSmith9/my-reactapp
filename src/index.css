@@ -1,0 +1,482 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+
+/* ---------------Navbar css styling ------------------*/
+.navbar-bg{
+    background-color: #ebfcfb; 
+    padding: 5px;
+    Z-index: 99;
+    position: relative; 
+    font-family: serif;
+    width: 100%;
+}
+
+.navbar-brand{
+    font-size: 20px;
+}
+
+.navbar li{
+    padding: 0 20px;
+}
+ 
+.navbar li a{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.navbar li a:hover{
+    color: #5f0191 !important;
+    text-shadow: 0 0 3px 3px rgb(132, 45, 179) ;
+}
+
+.btn-decor{
+    width: 7rem;
+    height: 3rem;
+    border-radius: 20px;
+    color: #110b85;
+    background-color: #199fb0;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.btn-decor:first-child{
+    margin-right: 20px;
+}
+
+.btn-decor:hover{
+    border: 1px solid #303538;
+    background-color: #d7e4fa;
+    color: #303538;  
+    box-shadow: 0 0 2px 3px rgb(43, 90, 166);
+}
+
+.btn-decor-border{
+    border: 1px solid #303538;
+    background-color: #d7e4fa;
+    color: #110b85;
+    box-shadow: 0 0 2px 3px rgb(99, 65, 120);
+}
+
+.btn-decor-border:hover{
+    color: #d7e4fa;
+    background-color: #199fb0;
+    text-transform: capitalize; 
+}
+
+/* ----------------Navbar ends----------------------- */
+
+/* -----------------------------Header part starts ----------------------*/
+
+header{
+    background-color: #ebfcfb;
+    min-height: 125vh;
+    width: 100%;
+}
+.main-container{
+    height: 80vh;
+    display: flex;
+    width: 100%;
+}
+.main-container .main-container1{
+    margin-top: 100px;
+}
+.main-container h1{
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 45px;
+
+}
+.main-para{
+    font-size: 17px;
+    color: #484a4a;
+    margin: 25px 0 30px 0;
+    font-family: times new roman;
+    width: 100%;
+    text-align: justify;
+    padding-right: 10px;
+}
+.main-container .header-left-side{
+  padding-left: 3rem;
+  margin-top: 10px;
+}
+.main-container h3{
+    font-family: time new roman;
+    font-size: 19px;
+    font-weight: lighter;
+}
+.main-image{
+    position: relative;
+}
+.main-image img{
+    width: 55%;
+    height: 70%;
+    margin-top: 55px ;
+    box-shadow: 0 0 7px 7px rgb(221, 240, 238);
+    border-radius: 15px;
+    position: relative;
+}
+.main-image .main-image2{
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    left: 57%;
+    top: -2%;
+    box-shadow: 0 0 7px 7px rgb(221, 240, 238);
+    margin-top: 100px;
+}
+.input-group{
+    position: relative!important;
+
+}
+.form-control-text{
+    position: absolute;
+    height: 45px;
+    border: none;
+    outline-style: none;
+    font-size: 15px;
+    font-weight: lighter;
+    border-radius: 10px!important;
+}
+.input-group-button{
+    position: absolute;
+    left:55.5%;
+    height: 40px;
+    background-color: #199fb0;
+    color: #fff;
+    width: 20%;
+    border-radius: 15px!important;
+    text-align: center;
+    padding-top:10px;
+    top: 2px;
+    font-size: 15px;
+}
+
+/* -------------------------Header part ends here---------------------- */
+
+/* --------------------------working section starts-------------------------- */
+
+.work-container{
+    width: 85%;
+    padding: 50px 10px;
+    background-color: #fff;
+    margin-top: -50px;
+    margin-left: 7.5%;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 4px 5px rgb(245, 245, 245);   
+}
+.main-heading{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    word-spacing: 10px;
+    font-family: sans-serif;
+}
+.sub-container{
+    padding: 0 40px;
+}
+.Heading1{
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 10px;
+    margin-bottom: -5px;
+}
+.fontawsome-style{
+    font-size: 23px;
+    color: #199fb0;
+    width: 40px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(227, 227, 227);
+    display: grid;
+    place-items: center;
+    margin: 10px auto;
+}
+
+/* --------------------------------- About Us Section Starts from here ----------------------------------*/
+
+/*----------------first section---------------*/ 
+.common-section {
+  margin: 40px 0;
+}
+
+.our-services img {
+  width: 75%;
+  height: 65%;
+  margin-top: 10rem;
+  margin-right: 7rem;
+  box-shadow: rgb(43, 90, 166) 0px 0.5rem 0.7rem;
+  border-radius: 15px;
+}
+
+.our-services .mini-title {
+  text-transform: uppercase;
+  font-family: Times New Roman;
+  margin: 35px 0;
+  text-align: justify;
+  font-size: 25px;
+  word-spacing: 7px;
+}
+
+.our-services .main-heading {
+  font-family: sans-serif;
+  word-spacing: 5px;
+  font-size: 30px;
+}
+
+.our-services-info {
+  margin-top: 35px;
+  font-family: serif;
+  font-size: 30px;
+}
+
+.our-services .our-services-number {
+  height: 35px;
+  width: 25px;
+  background-color: transparent;
+  font-size: 27px;
+}
+
+.our-services-data {
+  padding-left: 25px;
+}
+
+.our-services .our-services-data p {
+  margin: 10px 0;
+}
+
+/* 2nd section of about us  */
+
+.our-services-rightside {
+  margin-top: -50px;
+}
+
+.our-services-rightside-content {
+  padding-left: 15rem;
+}
+.btn-style{
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  color: #110b85;
+  background-color: #199fb0;
+  text-transform: capitalize;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.btn-style-border{
+    border: 1px solid #303538;
+    background-color: #d7e4fa;
+    color: #110b85;
+    box-shadow: 0 0 2px 3px #ced4da ;
+}
+
+.btn-style-border:hover{
+    color: #484a4a;
+    background-color: #ced4da;
+    text-transform: capitalize; 
+}
+
+/* --------------------------------- About Us Section ends here ------------------------------------*/
+
+/* --------------------------------- Services Section starts --------------------------------*/
+
+.service-main-container {
+  padding: 5px 0;
+  font-family: serif;
+  font-size: 25px;
+}
+
+.service-main-container .main-heading {
+  margin: 2rem 0;
+  font-family: sans-serif;
+  font-size: 35px;
+
+}
+
+.work-container-subdiv {
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
+}
+
+.work-container-subdiv:hover {
+  background-color:aliceblue;
+  cursor: pointer;
+}
+
+.work-container-subdiv:hover > .fontawesome-style {
+  background-color: #ced4da;
+}
+
+.work-container-subdiv .main-para {
+  width: 100%;
+}
+
+.service-main-container .work-container-subdiv .fontawesome-style {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+@media (min-width: 1400px) {
+  .service-container .col-xxl-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .service-container .col-lg-4 {
+    flex: 0 0 auto;
+    width: 30% !important;
+    margin: 2.5rem auto;
+  }
+}
+
+/* ---------------------------- Services Section ends here -----------------------*/
+                          
+                          
+
+/* --------------------------------- Contact Us Section starts here---------------------------------*/
+.contactus-section {
+  margin: 5rem 0;
+  font-family: Times New Roman;
+}
+
+.contact-leftside img {
+  min-width: 80%;
+  max-height: 30rem;
+  height: auto;
+}
+
+.contact-input-feild {
+  margin-bottom: 3rem;
+  padding-left: 10px;
+}
+
+.contact-rightside form .form-control {
+  border: 1px solid #ced4da;
+  height: 5rem;
+  border-radius: 0.5rem;
+  font-size: 25px;
+  padding-left: 1rem;
+  -webkit-appearance:none;
+}
+
+.contact-rightside form .form-check-input {
+  width: 2rem;
+  height: 2rem;
+}
+
+.form-checkbox-style {
+  margin: 4rem 0;
+}
+
+.contact-rightside form .main-para {
+  font-size: 20px;
+  margin: 0;
+  width: 75%;
+  padding: 0 2rem;
+}
+/* --------------------------------- Contact US Section ends -------------------------------*/                         
+
+/* --------------------------------- Footer  Section starts -----------------------------------------*/
+
+footer {
+    margin-top: 150px;
+    padding-top: 20px;
+    background-color:#0d444a;
+    color: #fff;
+    width: 100%;
+}
+            
+footer h2 {                         
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer li{
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+footer li a{
+    color: #d7e4fa;
+    font-family: Times New Roman;
+    text-align: justify;
+}
+                          
+footer li a:hover {
+    color:aqua;
+}                         
+
+.about{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+footer .fontawesome-style {
+    font-size: 40px;
+    color: #d7e4fa;
+    margin: 35px 0;
+    cursor: pointer;
+}
+                           
+footer .fontawesome-style:hover {
+    transition: all 1s;
+    animation: rotatefont 1s linear infinite alternate-reverse;
+    color:aqua;
+}
+
+@keyframes rotatefont {
+    0% {
+      transform: scale(0.6);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+}
+  
+footer .main-para {
+    color: #d7e4fa;
+}
+  
+/* --------------------------------- Footer  Section ends ------------------------------------*/
+
+/* --------------------------------- responsive media queries ----------------------------------*/
+
+@media (max-width: 1000px) {
+  .navbar .navbar-collapse{
+    margin: 10px;
+    background-color: #fff;
+    padding: 20px 10px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+}
